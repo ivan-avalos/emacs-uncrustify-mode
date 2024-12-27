@@ -58,10 +58,15 @@
   (let ((m (or mode major-mode)))
     (case m
       ('c-mode "C")
+      ('c-ts-mode "C")
       ('c++-mode "CPP")
+      ('c++-ts-mode "CPP")
       ('d-mode "D")
+      ('d-ts-mode "D")
       ('java-mode "JAVA")
+      ('java-ts-mode "JAVA")
       ('objc-mode "OC")
+      ('objc-ts-mode "OC")
       (t
        nil))))
 
